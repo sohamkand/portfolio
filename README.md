@@ -1,170 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+header {
+  background-color: #5cb6df;
+  color: #ffffff;
+  padding: 30px 20px;
+}
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soham Kand Portfolio</title>
-  <style>
-    body {
-      font-family: 'Verdana', sans-serif;
-      background-color: #57a5f9;
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
+header .profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #f9dbdb;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
 
-    header {
-      background-color: #5cb6df;
-      color: #ffffff;
-      padding: 30px 20px;
-    }
+nav {
+  background-color: #aed0f1;
+  padding: 12px;
+}
 
-    header .profile-pic {
-      width: 180px;
-      height: 180px;
-      border-radius: 50%;
-      border: 5px solid #f9dbdb;
-      object-fit: cover;
-      margin-bottom: 10px;
-    }
+nav a {
+  color: #4b6fff;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
 
-    nav {
-      background-color: #aed0f1;
-      padding: 12px;
-    }
+section {
+  padding: 20px;
+  background-color: rgb(243, 227, 227);
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
-    nav a {
-      color: #4b6fff;
-      text-decoration: none;
-      margin: 20px;
-      font-size: 18px;
-      font-weight: bold;
-    }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-    section {
-      padding: 20px;
-      background-color: rgb(243, 227, 227);
-      margin: 20px auto;
-      border-radius: 10px;
-      width: 80%;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    }
+ul li {
+  font-size: 18px;
+  padding: 8px;
+}
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
+footer {
+  background-color: #ebd7de;
+  color: rgb(55, 61, 44);
+  padding: 10px;
+  margin-top: 20px;
+}
 
-    ul li {
-      font-size: 18px;
-      padding: 8px;
-    }
+a {
+  color: #004080;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    footer {
-      background-color: #ebd7de;
-      color: rgb(55, 61, 44);
-      padding: 10px;
-      margin-top: 20px;
-    }
+.cert-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  margin-top: 20px;
+}
 
-    a {
-      color: #004080;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .cert-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 40px;
-      margin-top: 20px;
-    }
-
-    .cert-container img {
-      width: 100%;
-      max-width: 800px;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-    }
-  </style>
-</head>
-
-<body>
-
-  <header>
-    <img src="soham photo.jpg" class="profile-pic" alt="Profile Picture">
-    <h1>SOHAM KAND</h1>
-    <h2>Electronics & Telecommunication Engineering | MITAOE</h2>
-  </header>
-
-  <nav>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#projects">Projects</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am a passionate web developer, designer, and programmer with a strong foundation in HTML, CSS, JavaScript, React, Node.js, Python, and SQL. Currently pursuing a BTech in Electronics and Telecommunication Engineering (ENTC) at MIT AOE University (2024-2028), I have developed hands-on experience in front-end and back-end technologies.</p>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <p><strong>MIT Academy of Engineering, Pune</strong></p>
-    <p>B.Tech in Electronics & Telecommunication (2024 - 2028)</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>✅ Circuit Design and Analysis</li>
-      <li>✅ PCB Designer and Fabrication</li>
-    </ul>
-
-    <h3>Computer Skills</h3>
-    <ul>
-      <li>✅ Programming: Python, Java, C++</li>
-      <li>✅ Web Development: HTML, CSS, JavaScript, React, Node.js</li>
-      <li>✅ Web Design</li>
-    </ul>
-  </section>
-
-  <section id="certificates">
-    <h2>Certificates / Achievements</h2>
-    <div class="cert-grid">
-      <div class="cert-container">
-        <img src="_certificate_202401070215-mitaoe-ac-in_b1f4ada6-481d-4dba-a781-7e5ba1fbf11f (1).pdf" alt="Certificate 1">
-      </div>
-      <div class="cert-container">
-        <img src="_certificate_202401070215-mitaoe-ac-in_f03013a6-cf58-4b00-b026-acb3e80f190e.pdf" alt="Certificate 2">
-      </div>
-      </div>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <ul>
-      <li>📌 <strong>STREET LIGHT SENSOR</strong> - Basic project to understand circuits.</li>
-      <li>📌 <strong>AUTOMATIC LINE DETECTION PROJECT</strong> - Uses ultrasonic sensors to DETECT LINE</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>📧 Email: <a href="mailto:atulgaikwad2205@gmail.com">atulgaikwad2205@gmail.com</a></p>
-    <p>📧 LinkedIn: <a href="https://www.linkedin.com/in/atul-gaikwad-945203360?" target="_blank">Atul's LinkedIn</a></p>
-    <p>📞 Mobile No: <a href="tel:+918623934910">8623934910</a></p>
-  </section>
-
-  <footer>
-    <p>© 2024 ATUL GAIKWAD | MITAOE</p>
-  </footer>
-
-</body>
-
-</html>
+.cert-container img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
