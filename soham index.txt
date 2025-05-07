@@ -139,15 +139,12 @@
     <h2>Certificates / Achievements</h2>
     <div class="cert-grid">
       <div class="cert-container">
-        <img src="cisco python essential 1.jpg" alt="Certificate 1">
+        <img src="_certificate_202401070215-mitaoe-ac-in_b1f4ada6-481d-4dba-a781-7e5ba1fbf11f (1).pdf" alt="Certificate 1">
       </div>
       <div class="cert-container">
-        <img src="cisco python essential 2.jpg" alt="Certificate 2">
+        <img src="_certificate_202401070215-mitaoe-ac-in_f03013a6-cf58-4b00-b026-acb3e80f190e.pdf" alt="Certificate 2">
       </div>
-      <div class="cert-container">
-        <img src="hacker rank python certificate.jpg" alt="Certificate 3">
       </div>
-    </div>
   </section>
 
   <section id="projects">
@@ -157,14 +154,6 @@
       <li>📌 <strong>AUTOMATIC LINE DETECTION PROJECT</strong> - Uses ultrasonic sensors to DETECT LINE</li>
     </ul>
   </section>
-
- <section id="resume">
-  <h2>My Resume</h2>
-  <div class="cert-container">
-    <img src="resume.jpg" alt="My Resume" style="width:100%; max-width:900px; border-radius:12px; box-shadow: 0 0 12px rgba(0,0,0,0.3);">
-  </div>
-</section>
-
 
   <section id="contact">
     <h2>Contact</h2>
